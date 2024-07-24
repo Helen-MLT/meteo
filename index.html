@@ -3,34 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Meteo App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Brussels</h1>
-        <p>
-          Wednesday 15:17, moderate rain
-          <br />
-          Humidity: 87%, Wind: 7.2km/h
-        </p>
-      </div>
-      <div>🌤️ 22°C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city.." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Brussels</h1>
+          <p>
+            Wednesday 15:17, moderate rain
+            <br />
+            Humidity: 87%, Wind: 7.2km/h
+          </p>
+        </div>
+        <div>🌤️ 22°C</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Helen-MLT" target="blank">Hélèna Milletti</a>,
-      is open-sourced on
-      <a href="https://github.com/Helen-MLT/meteo" target="blank">Github</a> and
-      hosted on
-      <a href="https://meteoappbyhelen.netlify.app/" target="blank">Netlify</a>
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Helen-MLT" target="blank">Hélèna Milletti</a
+        >, is open-sourced on
+        <a href="https://github.com/Helen-MLT/meteo" target="blank">Github</a>
+        and hosted on
+        <a href="https://meteoappbyhelen.netlify.app/" target="blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
