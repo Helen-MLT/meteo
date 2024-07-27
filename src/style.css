@@ -68,6 +68,10 @@ main {
   color: #181818;
   font-size: 96px;
 }
+.weather-app-unit {
+  color: #181818;
+  font-size: 80px;
+}
 footer {
   border-top: 1px solid #181818;
   padding: 30px 0 0 0;
