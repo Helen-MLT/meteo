@@ -64,13 +64,19 @@ main {
 .weather-app-container {
   display: flex;
 }
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
 .weather-app-temperature {
   color: #181818;
-  font-size: 96px;
+  font-size: 80px;
+  line-height: 88px;
 }
 .weather-app-unit {
   color: #181818;
   font-size: 80px;
+  line-height: 88px;
 }
 footer {
   border-top: 1px solid #181818;
