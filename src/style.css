@@ -65,18 +65,50 @@ main {
   display: flex;
 }
 .weather-app-icon {
+  font-size: 48px;
   width: 88px;
   height: 88px;
 }
 .weather-app-temperature {
   color: #181818;
-  font-size: 80px;
+  font-size: 66px;
   line-height: 88px;
+  font-weight: 500;
 }
 .weather-app-unit {
   color: #181818;
-  font-size: 80px;
+  font-size: 66px;
   line-height: 88px;
+  font-weight: 500;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+.weather-forecast-date {
+  text-align: center;
+  color: #181818;
+  font-size: 24px;
+}
+
+.weather-forecast-icon {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #181818;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.weather-app-temperature {
+  padding: 0 10px;
 }
 footer {
   border-top: 1px solid #181818;
