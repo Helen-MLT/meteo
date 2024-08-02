@@ -71,6 +71,7 @@ function displayForecast() {
                 <div class="weather-forecast-temperatures">9°</div>
               </div>
             </div>
+      </div>
           `;
   });
 
