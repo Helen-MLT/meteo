@@ -27,6 +27,7 @@ a {
   width: 80%;
   padding: 15px 20px;
   font-size: 16px;
+  font-family: "Urbanist", sans-serif;
 }
 .search-form-button {
   background: #181818;
@@ -36,6 +37,7 @@ a {
   margin-left: 5px;
   border-radius: 6px;
   font-size: 16px;
+  font-family: "Urbanist", sans-serif;
 }
 
 main {
