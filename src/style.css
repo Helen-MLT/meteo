@@ -23,7 +23,7 @@ a {
 .search-form-input {
   background-color: #f9f6ee;
   border: none;
-  border-radius: 6px;
+  border-radius: 30px;
   width: 80%;
   padding: 15px 20px;
   font-size: 16px;
@@ -35,7 +35,7 @@ a {
   border: none;
   padding: 15px 30px;
   margin-left: 5px;
-  border-radius: 6px;
+  border-radius: 30px;
   font-size: 16px;
   font-family: "Urbanist", sans-serif;
 }
@@ -52,7 +52,6 @@ main {
   margin: 0;
   font-size: 60px;
   font-weight: 500;
-  line-height: 48px;
   text-transform: uppercase;
 }
 
